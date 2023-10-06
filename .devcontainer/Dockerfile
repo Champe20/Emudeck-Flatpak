@@ -1,5 +1,5 @@
 FROM ubuntu:mantic
-RUN apt update && apt upgrade
+RUN apt update && apt upgrade -y
 RUN apt install -y \
     flatpak \
     flatpak-builder \

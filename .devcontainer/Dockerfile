@@ -1,4 +1,4 @@
-FROM ubuntu:mantic
+FROM mcr.microsoft.com/devcontainers/base:ubuntu
 RUN apt update && apt upgrade -y
 RUN apt install -y \
     flatpak \
